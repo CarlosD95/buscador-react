@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(6, 77, 140);
+    color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.search-component{
+    text-align: center;
+}
+
+.button {
+    padding: 15px;
+    margin: 5px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(217, 229, 112);
+    border: none;
+    color: rgb(28, 34, 34);
+}
+
+.input{
+    background-color: rgb(9, 6, 42);
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+    color: white;
+    text-transform:uppercase;
+}
+
+.results{
+    padding: 15px;
+    margin: 5px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.search-list{
+    padding: 0;
+    font-size: 40px;
+    background-color: rgb(31, 31, 173);
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 20px;
+}
+
+.button-list{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    background-color:rgb(31, 31, 173);
+    color: white;
+    cursor: pointer;
+}
+
+.button-list:hover{
+    background-color: orange;
+}
+
+.marked-item{
+    background-color: rgb(142, 103, 186);
+    font-weight: bolder;
+}
